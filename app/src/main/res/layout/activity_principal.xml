@@ -46,5 +46,5 @@
         android:layout_margin="36dp"
         app:srcCompat="@drawable/torneio"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="36dp" />
+        tools:layout_editor_absoluteY="38dp" />
 </android.support.constraint.ConstraintLayout>
