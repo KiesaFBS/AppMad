@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrincipalActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/nomeTorneio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="serif"
+            android:hint="Digite o nome do Torneio"
+            android:text="Digite o Nome do Torneio" />
+
+        <Button
+            android:id="@+id/btCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:onClick="btCadastro"
+            android:text="Cadastrar"
+            android:textColor="@color/background_material_dark_1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:textColor="@android:color/holo_red_dark" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
